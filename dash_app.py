@@ -320,6 +320,7 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.CYBORG, dbc.icons.FONT_AWESOME],
     meta_tags=[{'name': 'viewport', 'content': 'width=device-width, initial-scale=1, maximum-scale=1'}]
 )
+server =app. server
 
 load_figure_template("cyborg")
 
